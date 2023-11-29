@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.yaoandrew</groupId>
 	<artifactId>release-pipeline</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>release-pipeline</name>
 	<description>Testing maven release plugin CI/CD</description>
 	<properties>
@@ -19,7 +19,7 @@
 		<url>scm:git:git@github.com:yaoandrew/maven-release-sandbox.git</url>
 		<connection>scm:git:git@github.com:yaoandrew/maven-release-sandbox.git</connection>
 		<developerConnection>scm:git:git@github.com:yaoandrew/maven-release-sandbox.git</developerConnection>
-		<tag>1.0.0</tag>
+		<tag>@{project.version}</tag>
 	</scm>
 
 	<dependencies>
